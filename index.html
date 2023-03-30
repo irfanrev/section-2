@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resources</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('https://ecampus.unsika.ac.id/u/img/background_perguruanTinggi_1.jpg'); width: 400px; height: 400px; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <p class="">Latihan Image</p>
+    <img src="assets/logo.png" width="400" height="400" alt="Logo-doang">
+    <table border="1" width="400" heigth="400">
+        <thead>
+            <tr>
+                <th>Judul 1</th>
+                <th>Judul 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Baris ke-1, Kolom ke-1</td>
+                <td>Baris ke-1, Kolom ke-2</td>
+            </tr>
+            <tr>
+                <td>Baris ke-2, Kolom ke-1</td>
+                <td>Baris ke-2, Kolom ke-2</td>
+            </tr>
+            <tr>
+                <td>Baris ke-3, Kolom ke-1</td>
+                <td>Baris ke-3, Kolom ke-2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>185</td>
+                </tr>
+        </tfoot> 
+    </table>
+
+    <p>Latihan Form </p>
+    <form action="#" method="POST">
+
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <br>
+
+        <!-- checkbox -->
+        <label for="rememberMe">Remember me</label>
+        <input type="checkbox" name="rememberMe">
+        <input type="checkbox" name="rememberMe">
+        <input type="checkbox" name="rememberMe">
+        <input type="checkbox" name="rememberMe">
+        <br>
+
+        <!-- radio button -->
+        <label for="gender">Jenis kelamin</label>
+        <br>
+        <input type="radio" name="rememberMe" value="laki-laki">Laki-laki
+        <input type="radio" name="rememberMe" value="perempuan">Perempuan
+        <br>
+
+        <!-- textarea -->
+        <label for="alamat">Alamat</label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br>
+
+        <!-- select options -->
+        <label for="prodi">Prodi</label>
+        <select name="prodi" id="prodi">
+            <option value="informatika">Informatika</option>
+            <option value="si">Sistem Informasi</option>
+        </select>
+        <br>
+        <br>
+
+        <div style="width: 100px; height: 100px; background-color: aqua;">
+
+        </div>
+
+        <button type="submit" style="background-color: blue; color: white;">Submit</button>
+        <button type="reset" style="background-color: red; color: white;">Clear</button>
+
+
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </form>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</html>
